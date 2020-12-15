@@ -15,17 +15,27 @@ I just making some list of super-basic snippets and functions of Unity3D. Mostly
 ### C# syntax
 If expression:
 ```csharp
-if (condition == true) {//condition is true;} else {//condition is false;}
+if (condition == true) {
+//condition is true;
+} 
+else 
+{
+//condition is false;
+}
 ```
 
 For loop:
 ```csharp
-for (int i = 0; i < 10; i++) {//do the loop until "i" variable will be smaller than ten;}
+for (int i = 0; i < 10; i++) {
+//do the loop until "i" variable will be smaller than ten;
+}
 ```
 
 While Loop:
 ```csharp
-while (condition == true) {//do the loop until condition is true;}
+while (condition == true) {
+//do the loop until condition is true;
+}
 ```
 
 ### Print stuff in console 
