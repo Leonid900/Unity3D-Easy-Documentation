@@ -12,7 +12,7 @@ I just making some list of super-basic snippets and functions of Unity3D. Mostly
 
 ## 🍕 Basics
 
-### C# syntax
+### C# syntax (expressions and loops)
 If expression:
 ```csharp
 if (condition == true) {
@@ -37,6 +37,15 @@ while (condition == true) {
 //do the loop until condition is true;
 }
 ```
+
+### C# variables
+Variables
+```csharp
+int ;
+}
+```
+
+
 
 ### Print stuff in console 
 You can print stuff in console with Debug.Log function. Most basic function.
