@@ -1,12 +1,12 @@
 # Unity3D-Easy-Documentation (WIP)
-* [Basics](#basics)
+* [Basics](#✨basics)
 * [Get Access to the objects and components](#get-access-to-the-objects-and-components)
 
 ## What is that?
 
 I just making some list of super-basic snippets and functions of Unity3D. Mostly for myself.
 
-## Basics
+## ✨Basics
 
 ### C# syntax
 If expression:
