@@ -9,7 +9,7 @@ I just making some list of super-basic snippets and functions of Unity3D. Mostly
 
 ## Basic Functions <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png" height="24">
 ### Print stuff in console 
-You can print stuff in console with Debug.Log function
+You can print stuff in console with Debug.Log function. Most basic function.
 
 ```csharp
 Debug.Log("Hello World");
