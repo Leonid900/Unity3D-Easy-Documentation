@@ -12,8 +12,8 @@ You can print stuff in console with Debug.Log function
 Debug.Log("Hello World");
 ```
 <p align="right">
-_How it is in other languages:_
-<img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" height="16"> `console.log('Hello World!');`
+<i>How it is in other languages:</i>
+<img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" height="16"> <code>console.log('Hello World!');</code>
 <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="16"> `print('Hello World')`
 </p>
 
