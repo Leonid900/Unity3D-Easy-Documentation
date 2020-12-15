@@ -1,6 +1,6 @@
 # Unity3D-Easy-Documentation (WIP)
 
-[create an anchor](#Get Access to the objects and components)
+[create an anchor](#get-access-to-the-objects-and-components)
 
 ## What is that?
 
