@@ -69,7 +69,19 @@ You can create new class instance if you will create new variable with data-type
 ```csharp
 className myVar = new className();
 Enemy the_soldier = new Enemy(); //Example: create and Enemy class instance in variable called the_soldier
+```
 
+### Private and Public variables\fields
+You can hide public variable in Unity3D Inspector view with `[HideInInspector]` line
+```csharp
+[HideInInspector]
+public float strength;
+```
+
+You can show private variable as GUI field in Unity3D Inspector view with `[SerializeField]` line
+```csharp
+[SerializeField]
+private float strength;
 ```
 
 
@@ -179,14 +191,9 @@ if (Input.GetKeyUp(KeyCode.my_key_code)) {// Do something if key "my_key_code" r
 ```
 
 ### Input gamepad
-
+???
 
 ## 🍕 Scenes
-
-***
-
-### Animated Sinus function
-?
 
 ### Change scene
 File → Build Settings → Drag'n'Drop scenes from "Assets" in "Scenes in Build"
@@ -200,13 +207,17 @@ SceneManager.LoadScene("SceneName");
 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 ```
 
+***
+
+### Animated Sinus function
+?
+
 ### Collider (WIP)
 ???
 ```csharp
 void TriggerCollider(Collider other){} ????????
 if (other.CompareTage("Player")){}
 ```
-
 
 ### Change model
 ???
@@ -238,16 +249,7 @@ rend.sharedMaterial = material[x];
 ### How to store data
 ???
 
-### Private\Public
-```csharp
-[HideInInspector]
-public float strength;
-```
 
-```csharp
-[SerializeField]
-private float strength;
-```
 
 
 
