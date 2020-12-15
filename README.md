@@ -5,7 +5,7 @@
 I just making some list of super-basic snippets and functions of Unity3D. Mostly for myself.
 
 ## Useful Packages and Addons
-Cinemachine — for TPS camera movement.
+* Cinemachine — for TPS camera movement.
 
 ## Basic Functions <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png" height="24">
 ### Print stuff in console 
