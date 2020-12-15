@@ -1,17 +1,15 @@
 # Unity3D-Easy-Documentation
 
 ## Packages and Addons
-	Cinemachine — for TPS camera movement.
+Cinemachine — for TPS camera movement.
 
-
-➖ Print stuff in console
+## Basic Functions
+### Print stuff in console
 	Debug.Log("Hello World") 
-
-➖ Get Object by editor field
+### Get Object by editor field
 	[SerializeField]
 	private GameObject myObject;
-
-➖ Get Object by name ('only in Start or Awake, not in Class Constructor')
+### Get Object by name ('only in Start or Awake, not in Class Constructor')
 	myObject = GameObject.Find("ObjectName");			//Find object by name (las in object list)
 	myObject = GameObject.Find("ObjectName/ObjectParent");		//Find object parent via Path (child of parents)
 	myObject = GameObject.Find("/ObjectInRoot"); 			//Find object in root without parent (specifically object without parent)
