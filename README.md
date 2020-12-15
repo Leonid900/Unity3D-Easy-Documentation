@@ -7,7 +7,9 @@ Cinemachine — for TPS camera movement.
 ### Print stuff in console
 You can print stuff in console with Debug.Log function
 
+```
 Debug.Log("Hello World")
+```
 
 ### Get Object by editor field
 	[SerializeField]
