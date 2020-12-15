@@ -57,7 +57,7 @@ Variables:
 ```csharp
 bool   myVar = false;
 int    myVar = 1337; 
-float  myVar = 14.5; 
+float  myVar = 14.5f; 
 double myVar = 14.494457; 
 string myVar = ”Hello”; 
 var    myVar = "Automatic detect verb type";
