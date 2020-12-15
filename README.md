@@ -6,11 +6,11 @@
 * [Create and Destroy Objects and Components](#create-and-destroy-objects-and-components)
 * [Basic Visibility of Objects](#basic-visibility-of-objects)
 
-## ✨What is that?
+## 🔵What is that?
 
 I just making some list of super-basic snippets and functions of Unity3D. Mostly for myself.
 
-## ✨Basics
+## 🔵Basics
 
 ### C# syntax
 If expression:
@@ -41,7 +41,7 @@ How it is in other languages:
 <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="16"> <code>print('Hello World')</code>
 </i></sub></p>
 
-## ✨Get Access to the objects and components
+## 🔵Get Access to the objects and components
 
 ### Get Object by editor field
 
@@ -61,7 +61,7 @@ if (!myObject) {Debug.Log("there is no such an object");}	//Check if object foun
 ```
 
 
-## ✨Transform objects
+## 🔵Transform objects
 
 ### Move object (3D)
 ```csharp
@@ -90,7 +90,7 @@ if (transform.localScale.y > 5f) {
 transform.localScale = new Vector3(transform.localScale.x, 5f, transform.localScale.z);}
 ```
 
-## ✨Create and destroy objects and components
+## 🔵Create and destroy objects and components
 
 ### Create object
 ```csharp
@@ -107,7 +107,7 @@ Destroy(GetComponent<Rigidbody>()); // Destroy specific component
 Rigidbody myRigidbody = GetComponent<Rigidbody>()
 ```
 
-## ✨Basic visibility of objects
+## 🔵Basic visibility of objects
 
 ### Hide object
 ```csharp
