@@ -6,6 +6,7 @@
 * [Create and Destroy Objects and Components](#-create-and-destroy-objects-and-components)
 * [Basic Visibility of Objects](#-basic-visibility-of-objects)
 * [Input and Controls](#-input-and-controls)
+* [Scenes](#-scenes)
 
 ## 🍕 What is that?
 
@@ -170,17 +171,22 @@ GetComponent<Renderer>().enabled = !GetComponent<Renderer>().enabled;
 
 ## 🍕 Input and Controls
 
+### Input keyboard
+```csharp
+if (Input.GetKey(KeyCode.my_key_code)) {// Do something if key "my_key_code" pressed every time;}
+if (Input.GetKeyDown(KeyCode.my_key_code)) {// Do something if key "my_key_code" pressed once;}
+if (Input.GetKeyUp(KeyCode.my_key_code)) {// Do something if key "my_key_code" released once;}
+```
+
+### Input gamepad
+
+
+## 🍕 Scenes
 
 ***
 
 ### Animated Sinus function
 ?
-
-### Input keyboard
-	if (Input.GetKey(KeyCode.my_key_code)) {}
-
-### Input gamepad
-
 
 ### Change scene
 File → Build Settings → Drag'n'Drop scenes from "Assets" in "Scenes in Build"
