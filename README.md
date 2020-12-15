@@ -4,8 +4,8 @@
 ## Packages and Addons
 Cinemachine — for TPS camera movement.
 
-## Basic Functions
-### Print stuff in console <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png" height="16">
+## Basic Functions <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png" height="24">
+### Print stuff in console 
 You can print stuff in console with Debug.Log function
 
 ```csharp
