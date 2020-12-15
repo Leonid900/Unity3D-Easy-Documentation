@@ -38,6 +38,18 @@ while (condition == true) {
 }
 ```
 
+Switch-Case expression:
+```csharp
+switch (variable_to_check) {
+case condition1:
+	Action1();
+   	break;
+case condition2:
+	Action2();
+   	break;
+}
+```
+
 ### C# variables (data types)
 Variables:
 ```csharp
