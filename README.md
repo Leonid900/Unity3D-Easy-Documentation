@@ -7,7 +7,7 @@ Cinemachine — for TPS camera movement.
 ### Print stuff in console
 You can print stuff in console with Debug.Log function
 
-```
+```csharp
 Debug.Log("Hello World")
 ```
 
