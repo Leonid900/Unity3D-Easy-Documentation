@@ -1,13 +1,3 @@
-# Awesome Web Icons [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-
-> A curated list of awesome Web (font, svg, whatever) Icons.
-
-Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
-
-You can follow me on [Twitter](https://twitter.com/vkarampinis).
-
-
-
 # Unity3D-Easy-Documentation
 
 
