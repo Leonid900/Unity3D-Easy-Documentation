@@ -5,6 +5,7 @@
 * [Transform Objects](#-transform-objects)
 * [Create and Destroy Objects and Components](#-create-and-destroy-objects-and-components)
 * [Basic Visibility of Objects](#-basic-visibility-of-objects)
+* [Input and Controls](#-input-and-controls)
 
 ## 🍕 What is that?
 
@@ -166,6 +167,8 @@ GetComponent<Renderer>().enabled = true;
 ```csharp
 GetComponent<Renderer>().enabled = !GetComponent<Renderer>().enabled; 
 ```
+
+## 🍕 Input and Controls
 
 
 ***
