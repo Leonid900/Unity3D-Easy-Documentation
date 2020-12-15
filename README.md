@@ -11,11 +11,11 @@ You can print stuff in console with Debug.Log function
 ```csharp
 Debug.Log("Hello World");
 ```
-<sub align="right">
+<p align="right"><sub>
 <i>How it is in other languages:</i>
 <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" height="16"> <code>console.log('Hello World!');</code>
 <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="16"> <code>print('Hello World')</code>
-</sub>
+</sub></p>
 
 ### Get Object by editor field
 
