@@ -21,22 +21,11 @@ How it is in other languages:
 <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="16"> <code>print('Hello World')</code>
 </i></sub></p>
 
-***
-ᅟ
-ᅟ
-ᅟ
-ᅟ
-ᅟ
-ᅟ
-ᅟ
-ᅟ
-ᅟ
-ᅟ
-ᅟ
-ᅟ
-
+## Get Access to the objects and components
 
 ### Get Object by editor field
+
+You can setup field\variable
 
 ```csharp
 [SerializeField]
