@@ -38,8 +38,8 @@ while (condition == true) {
 }
 ```
 
-### C# variables
-Variables
+### C# variables (data types)
+Variables:
 ```csharp
 bool   myVar = false;
 int    myVar = 1337; 
@@ -49,6 +49,14 @@ string myVar = ”Hello”;
 var    myVar = "Automatic detect verb type";
 ```
 
+
+### C# classes (create classes)
+You can create new class instance if you will create new variable with data-type name the same as classname
+```csharp
+className myVar = new className();
+Enemy the_soldier = new Enemy(); //Example: create and Enemy class instance in variable called the_soldier
+
+```
 
 
 ### Print stuff in console 
