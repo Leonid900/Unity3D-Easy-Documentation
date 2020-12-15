@@ -13,6 +13,14 @@ I just making some list of super-basic snippets and functions of Unity3D. Mostly
 if (condition == true) {//condition is true;} else {//condition is false;}
 ```
 
+```csharp
+for (int i = 0; i < 10; i++) {//do the loop until "i" variable will be smaller than ten;}
+```
+
+```csharp
+while (condition == true) {//do the loop until condition is true;}
+```
+
 ### Print stuff in console 
 You can print stuff in console with Debug.Log function. Most basic function.
 
