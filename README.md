@@ -5,7 +5,7 @@
 Cinemachine — for TPS camera movement.
 
 ## Basic Functions
-### Print stuff in console <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" height="16">
+### Print stuff in console <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/csharp/csharp.png" height="16">
 You can print stuff in console with Debug.Log function
 
 ```csharp
