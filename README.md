@@ -1,5 +1,8 @@
-# Unity3D-Easy-Documentation
+# Unity3D-Easy-Documentation (WIP)
 
+## What is that?
+
+I just making some list of super-basic snippets and functions of Unity3D. Mostly for myself.
 
 ## Packages and Addons
 Cinemachine — for TPS camera movement.
