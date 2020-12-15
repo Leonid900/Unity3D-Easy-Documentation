@@ -6,7 +6,7 @@ Cinemachine — for TPS camera movement.
 ## Basic Functions
 ### Print stuff in console
 You can print stuff in console with Debug.Log function
-	Debug.Log("Hello World") 
+	`Debug.Log("Hello World")`
 ### Get Object by editor field
 	[SerializeField]
 	private GameObject myObject;
