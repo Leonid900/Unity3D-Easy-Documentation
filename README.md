@@ -13,6 +13,7 @@ Debug.Log("Hello World")
 ```
 
 <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png" height="16"> `JavaScript alternative`
+
 <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="16"> `Print('Hello World')`
 
 ### Get Object by editor field
