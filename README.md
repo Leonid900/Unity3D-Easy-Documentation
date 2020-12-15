@@ -56,6 +56,9 @@ myObject = GameObject.Find("/ObjectInRoot"); 			//Find object in root without pa
 if (!myObject) {Debug.Log("there is no such an object");}	//Check if object found
 ```
 
+
+## Transform objects
+
 ### Move object (3D)
 ```csharp
 transform.position += new Vector3 (0f, 0f, 0f);
@@ -77,6 +80,20 @@ transform.rotation += new Vector3 (0f, 0f, 0f);
 transform.scale += new Vector3 (0f, 0f, 0f);
 ```
 
+### Set maximum scale value by one axis (3D)
+```csharp
+if (transform.localScale.y > 5f) {
+transform.localScale = new Vector3(transform.localScale.x, 5f, transform.localScale.z);}
+```
+
+## Create and destroy objects and components
+
+### Create object
+```csharp
+public GameObject enemy; // Can be dragged as prefab from assets
+Instantiate(enemy);
+```
+
 ### Destroy object
 ```csharp
 Destroy(gameObject);				// Destroy UnityObject immidiately
@@ -86,11 +103,7 @@ Destroy(GetComponent<Rigidbody>()); // Destroy specific component
 Rigidbody myRigidbody = GetComponent<Rigidbody>()
 ```
 
-### Create object
-```csharp
-public GameObject enemy; // Can be dragged as prefab from assets
-Instantiate(enemy);
-```
+## Basic visibility of objects
 
 ### Hide object
 ```csharp
@@ -107,11 +120,8 @@ GetComponent<Renderer>().enabled = true;
 GetComponent<Renderer>().enabled = !GetComponent<Renderer>().enabled; 
 ```
 
-### Set maximum scale value by one axis (3D)
-```csharp
-if (transform.localScale.y > 5f) {
-transform.localScale = new Vector3(transform.localScale.x, 5f, transform.localScale.z);}
-```
+
+
 
 ### Animated Sinus function
 ?
