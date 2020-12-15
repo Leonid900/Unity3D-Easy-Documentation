@@ -1,10 +1,10 @@
 # Unity3D-Easy-Documentation (WIP)
-* [What is that](#what-is-that)
-* [Basics](#basics)
-* [Get Access to the objects and components](#get-access-to-the-objects-and-components)
-* [Transform Objects](#transform-objects)
-* [Create and Destroy Objects and Components](#create-and-destroy-objects-and-components)
-* [Basic Visibility of Objects](#basic-visibility-of-objects)
+* [What is that](#-what-is-that)
+* [Basics](#-basics)
+* [Get Access to the objects and components](#-get-access-to-the-objects-and-components)
+* [Transform Objects](#-transform-objects)
+* [Create and Destroy Objects and Components](#-create-and-destroy-objects-and-components)
+* [Basic Visibility of Objects](#-basic-visibility-of-objects)
 
 ## 🍕 What is that?
 
