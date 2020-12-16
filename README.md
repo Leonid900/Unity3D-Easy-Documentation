@@ -76,9 +76,10 @@ var    myVar = "Automatic detect verb type";
 
 <p align="right"><sub>
 <i>
-How it is in Python:<br>  
-<img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="16"> <code>myVar = False // set myVar type as boolean</code><br>
-<img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="16"> <code>myVar = "Hello World" // set myVar type as string</code>
+How it is in Python:<br>
+<img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="16"> <code>You can change data type of variable anytime</code><br>
+<img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="16"> <code>myVar = False //set myVar type as boolean</code><br>
+<img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="16"> <code>myVar = "Hello World" //set myVar type as string</code>
 </i></sub></p>
 
 
