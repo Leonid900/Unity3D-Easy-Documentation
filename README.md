@@ -16,7 +16,7 @@ I just making some list of super-basic snippets and functions of Unity3D. Mostly
 ## 🍕 Basics
 
 ### How Unity works?
-[https://github.com/Leonid900/Unity3D-Easy-Documentation/blob/main/pic_unity_structure.png]
+<img src="https://github.com/Leonid900/Unity3D-Easy-Documentation/blob/main/pic_unity_structure.png">
 
 ### C# syntax (expressions and loops)
 If expression:
