@@ -121,11 +121,11 @@ How it is in other languages:<br>
 
 ### Get Object by editor field
 
-You can setup field\variable
+You can setup field that will be in inspector properties, where you can drag'n'drop Unity GameObjects:
 
 ```csharp
 [SerializeField]
-private GameObject myObject;
+private GameObject myObject; //declare variable myObject that can hold any Unity3D GameObject.
 ```
 
 ### Get Object by name ('only in Start or Awake, not in Class Constructor')
