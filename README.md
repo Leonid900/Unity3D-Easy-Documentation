@@ -21,9 +21,9 @@ I just making some list of super-basic snippets and functions of Unity3D. Mostly
 Each project has some amount of `scenes`. `Scenes` are "levels" in your game and each `scene` holds a list of abstract `"game objects"`. Each `game object` by default is empty point in space, that has location, rotation and scale setting. `GameObjects` can hold a list of `components`, that gives your object some behavior or look. There is `components` such as `sprite renderer` and `mesh renderer` to display actual sprites and 3D models, `rigidbody` to apply physics to the object and much more! Also there is special component, called `script`. `Script` is a code written in `C# language`, that can be applied to an object as `component`. In this code you can `interact` with other `game objects` and their `components`.
 
 ### Comparsion to GameMaker?
-In Unity3D, you create a `scene` filled with a list of `GameObjects`, that each can hold a list of `components`, like `sprites`, `rigidbody simulation`, `mesh renderer` or `scripts`. Scripts are written in `C# language`. With them you can interact with components and gameobjects. Scripts default events as functions, like `start` and `update`
+>In Unity3D, you create a `scene` filled with a list of `GameObjects`, that each can hold a list of `components`, like `sprites`, `rigidbody simulation`, `mesh renderer` or `scripts`. Scripts are written in `C# language`. With them you can interact with components and gameobjects. Scripts default events as functions, like `start` and `update`
 
-In Game Maker, you create a `room` filled with a list of `objects` that each may hold a `sprite` and a series of `events` which in turn trigger a series of `actions`.
+>In Game Maker, you create a `room` filled with a list of `objects` that each may hold a `sprite` and a series of `events` which in turn trigger a series of `actions`.
 Your scripted behavior exists in the `actions` portion. To reproduce this behavior multiple times between objects, you create a `script` that can be executed as a single `action` © [Game Maker to Godot dictionary](https://github.com/coppolaemilio/gamemaker-godot-dictionary).
 
 
