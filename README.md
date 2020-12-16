@@ -54,7 +54,13 @@ case condition2:
 ```
 
 ### C# variables (data types)
-Variables:
+C# is strongly typed language, so you should setup data type of each variable every time when you declarating it.
+You can also write just `var` as automatic way, but that is not recommended.
+You can declare variable without setting value, like this: `bool myVar;`
+Also you need to setup scope, the two most popular are `private` and `public`. 
+[Read about private and public variables]
+In general syntax is 'scope type name = value;'
+
 ```csharp
 bool   myVar = false;
 int    myVar = 1337; 
