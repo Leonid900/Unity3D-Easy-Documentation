@@ -18,7 +18,7 @@ I just making some list of super-basic snippets and functions of Unity3D. Mostly
 ### How Unity works?
 <img src="https://github.com/Leonid900/Unity3D-Easy-Documentation/blob/main/pic_unity_structure.png">
 
-Each project has some amount of scenes. Scenes are "levels" in your game and each scene holds a list of abstract "game objects". Each game object by default is empty point in space, that has location, rotation and scale setting. GameObjects can hold a list of components.
+Each project has some amount of `scenes`. `Scenes` are "levels" in your game and each `scene` holds a list of abstract `"game objects"`. Each `game object` by default is empty point in space, that has location, rotation and scale setting. `GameObjects` can hold a list of `components`.
 
 ### Comparsion to GameMaker?
 In Unity3D, you create a `scene` filled with a list of `GameObjects`, that each can hold a list of `components`, like `sprites`, `rigidbody simulation`, `mesh renderer` or `scripts`. Scripts are written in `C# language`. With them you can interact with components and gameobjects. Scripts default events as functions, like `start` and `update`
