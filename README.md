@@ -56,7 +56,7 @@ case condition2:
 ### C# variables (data types)
 C# is strongly typed language, so you should setup data type of each variable every time when you declarating it.
 
-You can also write just `var` as automatic way, but that is not recommended.
+You can also write just `var myVar = value;` as an automatic way, but that is not recommended.
 
 You can declare variable without setting value, like this: `bool myVar;`
 
