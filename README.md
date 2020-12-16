@@ -78,7 +78,7 @@ var    myVar = "Automatic detect verb type";
 <i>
 How it is in Python:<br>  
 <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="16"> <code style="display:block; white-space:pre-wrap">
-myVar = False
+myVar = False <br>
 myVar = "Hello World"
 </code>
 </i></sub></p>
