@@ -18,6 +18,8 @@ I just making some list of super-basic snippets and functions of Unity3D. Mostly
 ### How Unity works?
 <img src="https://github.com/Leonid900/Unity3D-Easy-Documentation/blob/main/pic_unity_structure.png">
 
+In Unity3D, you create a `scene` filled with a list of `GameObjects`, that each can hold a list of `components`, like `sprites`, `rigidbody simulation`, `mesh renderer` or `scripts`. Scripts are written in `C# language`. With them you can interact with components and gameobjects. Scripts default events as functions, like `start` and `update`
+
 In Game Maker, you create a `room` filled with a list of `objects` that each may hold a `sprite` and a series of `events` which in turn trigger a series of `actions`.
 Your scripted behavior exists in the `actions` portion. To reproduce this behavior multiple times between objects, you create a `script` that can be executed as a single `action` © [Game Maker to Godot dictionary](https://github.com/coppolaemilio/gamemaker-godot-dictionary)
 
