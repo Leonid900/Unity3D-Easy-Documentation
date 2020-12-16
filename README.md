@@ -74,6 +74,15 @@ string myVar = ”Hello”;
 var    myVar = "Automatic detect verb type";
 ```
 
+<p align="right"><sub>
+<i>
+How it is in Python:<br>  
+<img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="16"> <code>
+myVar = False<br>
+myVar = "Hello World"
+</code>
+</i></sub></p>
+
 
 ### C# classes (create classes)
 You can create new class instance if you will create new variable with data-type name the same as classname
