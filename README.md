@@ -54,7 +54,7 @@ case condition2:
 ```
 
 ### C# variables (data types)
-C# is strongly typed language, so you should setup data type of each variable every time when you declarating it.
+C# is strongly typed language, so you should setup data type of each variable each time when you declarating it.
 
 You can also write just `var myVar = value;` as an automatic way, but that is not recommended.
 
@@ -77,7 +77,8 @@ var    myVar = "Automatic detect verb type";
 <p align="right"><sub>
 <i>
 How it is in Python:<br>  
-<img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="16"> <code>myVar = False</code><br><code>myVar = "Hello World"</code>
+<img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="16"> <code>myVar = False // set myVar type as boolean</code><br>
+<img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="16"> <code>myVar = "Hello World" // set myVar type as string</code>
 </i></sub></p>
 
 
