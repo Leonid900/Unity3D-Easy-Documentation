@@ -284,7 +284,8 @@ rend.sharedMaterial = material[x];
 
 ### Set color of the light
 ```csharp
-private Light myLight; //Get Light Component
+private Light myLight; //Get Light Component by field
+private Light = get; //Get Light Component by field
 
 static float color_hdr = 1f; //HDR Brightness Multiply, because RGB is float
 private Color myColor = new Color(1f*color_hdr, 1f* color_hdr, 1f*color_hdr); //create new color
