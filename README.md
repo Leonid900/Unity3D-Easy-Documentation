@@ -282,8 +282,16 @@ rend.sharedMaterial = material[x];
 ### How to store data
 ???
 
+### Set color of the light
+```csharp
+private Light myLight; //Get Light Component
 
+static float color_hdr = 1f; //HDR Brightness Multiply, because RGB is float
+private Color myColor = new Color(1f*color_hdr, 1f* color_hdr, 1f*color_hdr); //create new color
 
+myLight.color = myColor;
+
+```
 
 
 ## Useful Packages and Addons
