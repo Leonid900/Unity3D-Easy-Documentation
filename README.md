@@ -242,6 +242,24 @@ SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
 ***
 
+
+## 🍕 Advanced Stuff
+
+### How to make Video Player play video from Youtube.
+Download https://github.com/iBicha/UnityYoutubePlayer script from Github.
+Unarchive everything from Assets folder in archive to your project Assets folder.
+Place "Youtube Player (Script)" above ↑ your "Video Player" component.
+Video Player should have "Source: URL" and "Play On Awake: True" for the testing.
+
+You can do things with these functions:
+```csharp
+YoutubePlayer.PlayVideoAsync //Play video
+VideoPlayerProgress // allows to display the progress of the video, as well as seeking.
+```
+
+
+## 🍕 Misc Unfinished Stuff
+
 ### Animated Sinus function
 ?
 
