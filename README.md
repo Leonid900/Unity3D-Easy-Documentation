@@ -150,6 +150,13 @@ myObject = GameObject.Find("/ObjectInRoot"); 			//Find object in root without pa
 if (!myObject) {Debug.Log("there is no such an object");}	//Check if object found
 ```
 
+### Get Component
+You can get component as `GetComponent <ComponentName> ();`
+
+```csharp
+GetComponent<Rigidbody>();
+```
+
 
 ## 🍕 Transform objects
 
