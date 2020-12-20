@@ -326,6 +326,18 @@ myLight.color = myColor;
 
 ```
 
+### Set Text
+```csharp
+using UnityEngine.UI; // Import in top of the script file
+//-----------------------------------------
+var myText = GetComponent<Text>();
+myText.text = "Hello World";
+//or	
+[SerializeField]
+private Component myText;
+myText.text = "Hello World";
+```
+
 
 ## Useful Packages and Addons
 * Cinemachine — for TPS camera movement.
