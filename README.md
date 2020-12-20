@@ -154,7 +154,14 @@ if (!myObject) {Debug.Log("there is no such an object");}	//Check if object foun
 You can get component as `GetComponent <ComponentName> ();`
 
 ```csharp
-GetComponent<Rigidbody>();
+// GetComponent to a variable
+ComponentName myComponent = GetComponent<ComponentName>();
+
+// GetComponent to a variable (you can use "var" as well)
+var myComponent = GetComponent<ComponentName>();
+
+GetComponent<Rigidbody>().function(); // Access the function of the component
+myField = GetComponent<ComponentName>().field; // Get the field from component and put it in myField
 ```
 
 
