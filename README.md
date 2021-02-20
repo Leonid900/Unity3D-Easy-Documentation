@@ -171,6 +171,17 @@ myField = GetComponent<ComponentName>().field; // Get the field from component a
 ```csharp
 transform.position += new Vector3 (0f, 0f, 0f);
 ```
+```csharp
+transform.position += transform.forward * Time.deltaTime; // SetPosition
+transform.Translate(Vector3.forward * Time.deltaTime); // Translate
+transform.Translate(Vector3.forward * Time.deltaTime, Space.World); // Translate in World Space
+
+//Rigidbody
+public float forceMult = 200; private Rigidbody rb; 
+void Awake() {rb = GetComponent<Rigidbody>();}
+void Update() {rb.AddForce(transform.forward * forceMult);}
+
+```
 
 ### Set myObject position of one axis to axis position of referenceObject (3D)
 ```csharp
