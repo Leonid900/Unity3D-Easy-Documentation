@@ -179,7 +179,8 @@ transform.Translate(Vector3.forward * Time.deltaTime, Space.World); // Translate
 //Rigidbody
 public float forceMult = 200; private Rigidbody rb; 
 void Awake() {rb = GetComponent<Rigidbody>();}
-void Update() {rb.AddForce(transform.forward * forceMult);}
+void Update() {rb.AddForce(transform.forward * forceMult * Time.deltaTime);}
+
 
 ```
 
