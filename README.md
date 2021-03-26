@@ -8,6 +8,7 @@ Table of contents:
 * [Basic Visibility of Objects](#-basic-visibility-of-objects)
 * [Input and Controls](#-input-and-controls)
 * [Scenes](#-scenes)
+* [Inspector](#-inspector)
 
 ## 🍕 What is that?
 
@@ -453,7 +454,25 @@ public class MicInput : MonoBehaviour
 }
 ```
 
+## 🍕 Inspector
+```csharp
+//Grouping with Headers
+[Header("MyHeader")]
+public int MyInt;
 
+//Slider with range
+[Range(11, 18)]    public int myInt = 11;
+[Range(0f, 3.5f)]    public float myFloat = 3.5f;
+
+// Dropdown menu
+public enum MyEnumerator { Left, Right, Top, AnyStringHelloWorld }
+public MyEnumerator my_enum1;
+
+
+
+
+
+```
 
 ## Useful Packages and Addons
 * Cinemachine — for TPS camera movement.
